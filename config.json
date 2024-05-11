@@ -1,0 +1,10 @@
+{
+  "color": {
+    "background": "#29211d",
+    "icon": {
+      "first": "#be3103",
+      "second": "#fbca00"
+    }
+  },
+  "icons": ["fa fa-star", "fa fa-star", "fa fa-heart", "fa fa-smile"]
+}

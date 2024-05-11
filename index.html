@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FontAwesome Test</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 0, 0, 0); /* Fond noir */
+        height: 100vh; /* Centrer verticalement */
+      }
+      .way_icon {
+        background-color: #29211d;
+        border-radius: 10px;
+        position: relative;
+        width: 48px;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .way_icon #icon {
+        font-size: 32px;
+        background: linear-gradient(to bottom right, #be3103, #fbca00);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="way_icon">
+      <i id="icon" class="fa fa-star"></i>
+    </div>
+  </body>
+</html>
